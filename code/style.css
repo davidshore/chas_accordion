@@ -1,4 +1,79 @@
-html {
-  background: #f2f1f4;
-  color: #19171c;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Rubik&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
+
+body {
+    font-family: "Inter", sans-serif;
+    background: rgb(247, 247, 249);    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 40px;
+    }
+
+.faq-box {    
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 6px rgba(33, 33, 33, 0.8);    
+    }
+
+.faq-box:hover {
+    background-color: rgb(146, 149, 156);
+    cursor: url(ghost-solid.svg), auto;
+}
+
+section:nth-child(odd) {
+    background-color: rgb(85, 92, 104);
+}
+
+.question {
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.answer {
+    display: none;     
+    }
+
+.faq-box.active .answer {
+    display: block;
+    }
+
+i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.icon-open {
+    display: none;
+}
+
+.icon-closed {
+    display: block;
+}
+
+.faq-box.active .icon-open {
+    display: block;    
+}
+
+.faq-box.active .icon-closed {
+    display: none;
+}
+
+
+  
