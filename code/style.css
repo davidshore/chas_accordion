@@ -25,11 +25,11 @@ h1 {
   min-height: 100vh;
 }
 
-.title+article {
+.description {
   display: none;
 }
 
-.title.active+article {
+.active+.description {
   display: block;
 }
 
