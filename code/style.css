@@ -36,7 +36,6 @@ html {
   display: flex;
   align-items: center;
   border-radius: 50px;
-  justify-content: flex-end;
   margin-bottom: 10px;
   box-shadow: 2px 3px 17px 1px rgb(171, 168, 168);
 }
@@ -44,19 +43,25 @@ html {
   box-shadow: 2px 3px 17px 1px rgb(74, 72, 72);
 }
 .title .icon{
-  display: flex;
   flex-basis: 5%;
+}
+.title .icon i{
+  display: flex;
+  width:  100%;
  text-align: center;
   flex-direction: column;
   color: #f2f1f4;
-  margin: auto;
-  padding: 13px 0px;
+  margin: 2px;
+  padding: 10px 0px ;
   border-radius: 50%;
   background-color: rgb(6, 87, 90);
 }
-.icon #icon2{
+#icon2,
+#icon4,
+#icon6{
   display: none;
 }
+
 .title h3{
   flex-basis: 90%;
   text-align: center;
@@ -67,12 +72,15 @@ html {
   padding: 0px 20px;
   display: none;
 }
-.active{
+.active + .description{
   display: block;
 }
 
+
+
+
 @media screen and (max-width: 950px) {
-  .title .icon{
-    padding: 13px 10px;
+  .title .icon i{
+    padding: 10px 5px;
   }
 }
