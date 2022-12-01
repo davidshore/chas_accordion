@@ -18,6 +18,8 @@ const titels = document.querySelectorAll('.title');
 titels.forEach((title) => {
   title.addEventListener('click',(e)=>{
     e.currentTarget.classList.toggle('active')
+    icon1.classList.toggle('none')
+    icon2.classList.toggle('active')
   })
 })
 
