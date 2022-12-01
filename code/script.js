@@ -6,20 +6,14 @@
 // Selects and HTML element, and calls a function which will be executed when the element is clicked.
 /* document.getElementById("section1").onclick = toggle */
 
-const section1 = document.querySelector('#section1');
-const section2 = document.querySelector('#section2');
-const section3 = document.querySelector('#section3');
-const description = document .querySelector('.description')
+
 const icon1 = document.querySelector('#icon1')
 const icon2 = document.querySelector('#icon2')
-
 const titels = document.querySelectorAll('.title');
 
 titels.forEach((title) => {
   title.addEventListener('click',(e)=>{
     e.currentTarget.classList.toggle('active')
-    icon1.classList.toggle('none')
-    icon2.classList.toggle('active')
   })
 })
 
