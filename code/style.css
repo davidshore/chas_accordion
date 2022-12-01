@@ -1,4 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 html {
   background: #f2f1f4;
   color: #19171c;
+}
+
+.faq {
+  width: 750px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: .5em 0;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: .5em 2em;
+}
+
+img {
+  width: 1em;
+  height: 1em;
+  margin: 0 .3em;
+  align-self: center;
+}
+
+.title {
+  display: flex;
+  padding: .5em 0;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.title:hover {
+  filter: brightness(96%);
+}
+
+.description {
+  display: none;
+}
+
+.active+div {
+  display: block;
 }
