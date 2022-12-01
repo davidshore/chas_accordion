@@ -1,0 +1,37 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+
+
+.title {
+  background-color: rgb(30, 58, 34);
+  color: rgb(253, 253, 253);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.title:hover {
+  background-color: rgb(41, 36, 36);
+}
+
+.active {
+    background-color: rgb(41, 36, 36);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.description {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #d3c266;
+  font-size: 20px;
+}
