@@ -2,3 +2,30 @@ html {
   background: #f2f1f4;
   color: #19171c;
 }
+
+.description {
+  display: none;
+}
+
+
+.active + .description {
+  display: block;
+}
+
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  gap: 1em;
+
+}
+
+
+#section1, #section2, #section3 {
+  cursor: pointer;
+  
+  
+} 
