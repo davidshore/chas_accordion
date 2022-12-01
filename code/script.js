@@ -1,7 +1,12 @@
-// A function that adds and remove the class "active" on the section you click on.
-function toggle() {
-  this.classList.toggle("active")
-}
+const question = document.querySelectorAll(".question")
+const answer = document.querySelectorAll(".answer")
+const faqBoxes = document.querySelectorAll(".faq-box")
+const boxes = document.querySelectorAll(".boxes")
 
-// Selects and HTML element, and calls a function which will be executed when the element is clicked.
-document.getElementById("section1").onclick = toggle
+
+faqBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+        box.classList.toggle("active")             
+        
+         })
+})
