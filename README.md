@@ -20,6 +20,12 @@ This assignment is a little different than previous assignments. For this one, w
 1. Use CSS to hide the ".description" divs.
 1. The JavaScript file is set up to add toggle an ".active" class on the ".title" divs when you click the title (use the inspector to see this in action). Use an "adjacent" CSS selector to select the panel next to an ".active" element and set it to `display: block;` to make it visible. [Read this](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors) to learn about the adjacent selector.
 1. Once you have one section showing and hiding, you need to update the JavaScript to call the `toggle` function for `section2` and `section3`.
+1. Make your page accessable. Read about [accessability here](https://www.w3schools.com/accessibility/index.php) and answer theese questions in comments at the end of your code:
+
+- Why should you make your html accessable?
+- What are landmarks in a html page and why should you have them?
+- What are semantic elements and why should you use them?
+- When do you use the role attribute?
 
 As always, to complete this assignment, you need to fork this repository, add your code, and then submit a pull request on GitHub for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
 
