@@ -2,3 +2,64 @@ html {
   background: #f2f1f4;
   color: #19171c;
 }
+/* Accordion */
+.accordion{
+  border-radius: 10px;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 15vh;
+  box-shadow: 2px 3px 17px 1px rgb(119, 117, 117);
+  transition: all 0.7s;
+}
+.accordion:hover{
+  box-shadow: 2px 3px 17px 1px rgb(32, 32, 32);
+ transform: scale(1.1);
+}
+.accordion h1{
+  text-align: center;
+  color: rgb(6, 87, 90);
+  padding: 10px;
+  
+}
+.accordion h1 span{
+  padding-bottom: 8px;
+  border-bottom: 3px solid red;
+}
+
+/* Title */
+.title{
+  border: solid 2px rgb(6, 87, 90);
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.title .icon{
+  display: flex;
+  flex-basis: 5%;
+ text-align: center;
+  flex-direction: column;
+  color: #f2f1f4;
+  margin: auto;
+  padding: 13px 0px;
+  border-radius: 50%;
+  background-color: rgb(6, 87, 90);
+}
+.icon #icon2{
+  display: none;
+}
+.title h3{
+  flex-basis: 90%;
+  text-align: center;
+}
+.description{
+  border-left: solid 2px rgb(6, 87, 90);
+  margin: 0px 30px;
+  padding: 0px 20px;
+  display: none;
+}
+.show {
+  display: block;
+}
