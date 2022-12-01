@@ -26,8 +26,8 @@ html {
   
 }
 .accordion h1 span{
-  padding-bottom: 8px;
-  border-bottom: 3px solid red;
+  padding-bottom: 5px;
+  border-bottom: 2px solid red;
 }
 
 /* Title */
