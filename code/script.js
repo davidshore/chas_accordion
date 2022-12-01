@@ -8,20 +8,18 @@
 // document.getElementById("section2").onclick = toggle
 // document.getElementById("section3").onclick = toggle
 
-
 const title = document.getElementsByClassName("title");
- let i;
+let i;
 
-for (i=0; i < title.length; i++) {
-  title[i].addEventListener('click', function(){
-    this.classList.toggle("active")
+for (i = 0; i < title.length; i++) {
+  title[i].addEventListener("click", function () {
+    this.classList.toggle("active");
 
-  let panel = this.nextElementSibling;
-  if(panel.style.display === "block") {
-    panel.style.display = "none";
-  } else {
-    panel.style.display = "block";
-  }
-  })
- }
-
+    let panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
