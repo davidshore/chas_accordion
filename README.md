@@ -23,9 +23,14 @@ This assignment is a little different than previous assignments. For this one, w
 1. Make your page accessable. Read about [accessability here](https://www.w3schools.com/accessibility/index.php) and answer theese questions in comments at the end of your code:
 
 - Why should you make your html accessable?
+<!-- By making your website accessible, you are ensuring that all of your potential users, including people with disabilities, have a decent user experience and are able to easily access your information. -->
 - What are landmarks in a html page and why should you have them?
+<!-- A landmark is an abstract role for a section of content that is important enough that users will likely want to be able to navigate to the section easily and have it included in a dynamically generated summary of the page. Landmarks allow assistive technologies to navigate and to find content quickly. -->
 - What are semantic elements and why should you use them?
+<!-- The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages. The pages made with semantic elements are much easier to read. It has greater accessibility. It offers a better user experience.-->
 - When do you use the role attribute?
+<!-- The role attribute describes the role of an element in programs that can make use of it, such as screen readers or magnifiers. Screen Readers will read this element as “button” instead of “link”. -->
+
 
 As always, to complete this assignment, you need to fork this repository, add your code, and then submit a pull request on GitHub for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
 
