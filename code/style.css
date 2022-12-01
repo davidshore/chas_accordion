@@ -1,4 +1,37 @@
 html {
-  background: #f2f1f4;
+  background: white;
   color: #19171c;
+}
+#section1 {
+  max-width: 10%;
+  background-color: #5bb65b;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+#section2 {
+  max-width: 10%;
+  background-color: #5bb65b;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+#section3 {
+  max-width: 10%;
+  background-color: #5bb65b;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+
+.description {
+  display: none;
+}
+
+.active + .description {
+  display: block;
+}
+
+h1 {
+  margin-left: 1em;
 }
