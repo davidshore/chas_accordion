@@ -70,3 +70,9 @@ html {
 .active{
   display: block;
 }
+
+@media screen and (max-width: 950px) {
+  .title .icon{
+    padding: 13px 10px;
+  }
+}
