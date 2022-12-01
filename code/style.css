@@ -12,7 +12,7 @@ html {
   padding: 20px;
   width: 60%;
   margin: 0 auto;
-  margin-top: 15vh;
+  margin-top: 10vh;
   box-shadow: 2px 3px 17px 1px rgb(119, 117, 117);
 }
 .accordion:hover{
@@ -45,22 +45,20 @@ html {
 .title .icon{
   flex-basis: 5%;
 }
-.title .icon i{
+.title .icon{
   display: flex;
   width:  100%;
  text-align: center;
   flex-direction: column;
   color: #f2f1f4;
-  margin: 2px;
-  padding: 10px 0px ;
+  margin: 5px;
+  padding:  10px 0px ;
   border-radius: 50%;
   background-color: rgb(6, 87, 90);
 }
 
-
-.title h3{
-  flex-basis: 90%;
-  text-align: center;
+.fa-minus{
+  display: none;
 }
 .description{
   border-left: solid 2px rgb(6, 87, 90);
@@ -71,13 +69,22 @@ html {
 .active + .description{
   display: block;
 }
-
-
-
-
+.active .fa-minus{
+  display: inline;
+}
+.active .fa-plus{
+  display: none;
+}
+.title h3{
+  flex-basis: 90%;
+  text-align: center;
+}
+.description p{
+  line-height: 25px;
+}
 
 @media screen and (max-width: 950px) {
-  .title .icon i{
+  .title .icon{
     padding: 10px 5px;
   }
 }
