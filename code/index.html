@@ -6,23 +6,28 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <section class="accordion">
+    <main>
+    <article class="accordion">
       <h1>FAQ</h1>
 
-      <div class="title" id="section1">Section 1</div>
-      <div class="description">
+      <section class="title" id="section1" role="button" >Section 1</section>
+      <div class="description" aria-label ="Answer to Question 1">
         <p>Lorem ipsum...</p>
       </div>
 
-      <div class="title" id="section2">Section 2</div>
-      <div class="description">
+      <section class="title" id="section2" role="button">Section 2</section>
+      <div class="description" aria-label ="Answer to Question 2">
         <p>Lorem ipsum...</p>
       </div>
 
-      <div class="title" id="section3">Section 3</div>
-      <div class="description">
+      <section class="title" id="section3" role="button">Section 3</section>
+      <div class="description"aria-label ="Answer to Question 3">
         <p>Lorem ipsum...</p>
       </div>
-    </section>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+
   </body>
 </html>
