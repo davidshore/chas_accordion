@@ -1,4 +1,38 @@
 html {
-  background: #f2f1f4;
-  color: #19171c;
+    background: #f2f1f4;
+    color: #19171c;
+}
+
+.description {
+    /* display: none; */
+    max-height: 0px;
+    transition: all 500ms ease-in-out;
+    overflow: hidden;
+}
+
+.active + div {
+    /* display: block; */
+    max-height: 100px;
+}
+
+.title:nth-of-type(4n - 3) {
+    background-color: lightblue;
+}
+.title:nth-of-type(4n - 5) {
+    background-color: lightgreen;
+}
+.title:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+.title::before {
+    content: ">";
+    display: inline-block;
+    padding: 1rem;
+    transition: all 200ms;
+}
+
+.active::before {
+    transform: rotateZ(90deg);
 }
