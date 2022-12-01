@@ -1,4 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background: #f2f1f4;
   color: #19171c;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.title {
+  background-color: beige;
+}
+
+.accordion div:nth-child(4n + 2) {
+  background-color: bisque;
+}
+
+.accordion {
+}
+
+.description {
+  display: none;
+}
+
+.active + .description {
+  display: block;
 }
