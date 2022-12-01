@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>FAQ-Assignment</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <section class="accordion">
-      <h1>FAQ</h1>
 
-      <div class="title" id="section1">Section 1</div>
-      <div class="description">
-        <p>Lorem ipsum...</p>
-      </div>
+<head>
+  <meta charset="utf-8" />
+  <title>FAQ-Assignment</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="script.js" defer></script>
+</head>
 
-      <div class="title" id="section2">Section 2</div>
-      <div class="description">
-        <p>Lorem ipsum...</p>
-      </div>
+<body>
+  <section class="faq">
+    <h1>FAQ</h1>
+    <div class="accordion">
+      <article>
+        <h2 class="title" id="section1">
+          <img src="IMG/plus.png">
+          <div role="button">Section 1</div>
+        </h2>
+        <div class="description">
+          <p>Lorem ipsum...</p>
+        </div>
+      </article>
 
-      <div class="title" id="section3">Section 3</div>
-      <div class="description">
-        <p>Lorem ipsum...</p>
-      </div>
-    </section>
-  </body>
+      <article>
+        <h2 class="title" id="section2">
+          <img src="IMG/plus.png">
+          <div role="button">Section 2</div>
+        </h2>
+        <div class="description">
+          <p>Lorem ipsum...</p>
+        </div>
+      </article>
+
+      <article>
+        <h2 class="title" id="section3">
+          <img src="IMG/plus.png">
+          <div role="button">Section 3</div>
+        </h2>
+        <div class="description">
+          <p>Lorem ipsum...</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+</body>
+
 </html>
+
+<!-- 
+Why should you make your html accessable?
+  So that anyone will be able to use the website, regardless of their circumstances.
+What are landmarks in a html page and why should you have them?
+  Landmarks are ways to label the greater structures/sections of a website
+  to make it easier for screen readers to navigate it.
+What are semantic elements and why should you use them?
+  Semantic elements give the content meaning, as opposed to pure structure, 
+  which makes it easier to navigate the website,
+  particularly for screen readers.
+When do you use the role attribute?
+  Roles describes what the element is/is used for. Again, wery usefull for accessibility. 
+ -->
