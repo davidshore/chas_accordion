@@ -1,4 +1,80 @@
+
+
+
+
 html {
   background: #f2f1f4;
   color: #19171c;
 }
+
+.accordion {
+
+background-color: blanchedalmond;
+width: 400px;
+height: 100%;
+margin: 0 auto;
+border-style: solid;
+border-color: black;
+
+}
+
+
+
+
+  h1 {
+   
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+  
+    }
+
+
+    .description {
+     display:none;
+    }
+
+    .active + .description {
+      display: block;
+      width: 100%;
+     display: grid;
+      justify-items: center;
+    }
+
+   
+   
+   
+    #section1, #section3 {
+      display:flex;
+      width: 400px;
+      height: 50px;
+      display: grid;
+      justify-items: center;
+      background-color: wheat;
+      
+      }
+
+
+      #section2, #section4 {
+
+        display:flex;
+        width: 400px;
+        height: 50px;
+        display: grid;
+        justify-items: center;
+        background-color: rgb(226, 174, 76);
+
+
+      }
+
+      .title:hover {
+       background-color: black !important;  
+       color: white;
+       
+
+
+      }
+
+      h3:hover {
+        cursor: pointer;
+      }
