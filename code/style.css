@@ -1,4 +1,91 @@
 html {
   background: #f2f1f4;
   color: #19171c;
+  
+}
+*{
+  transition: all 0.3s;
+}
+/* Accordion */
+.accordion{
+  border-radius: 10px;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  box-shadow: 2px 3px 17px 1px rgb(119, 117, 117);
+}
+.accordion:hover{
+  box-shadow: 2px 3px 17px 1px rgb(32, 32, 32);
+ transform: scale(1.1);
+}
+.accordion h1{
+  text-align: center;
+  color: rgb(6, 87, 90);
+  padding: 10px;
+  
+}
+.accordion h1 span{
+  padding-bottom: 5px;
+  border-bottom: 2px solid red;
+}
+
+/* Title */
+.title{
+  border: solid 2px rgb(6, 87, 90);
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  box-shadow: 2px 3px 17px 1px rgb(171, 168, 168);
+}
+.title:hover {
+  box-shadow: 2px 3px 17px 1px rgb(74, 72, 72);
+}
+.title .icon{
+  flex-basis: 5%;
+}
+.title .icon{
+  display: flex;
+  width:  100%;
+ text-align: center;
+  flex-direction: column;
+  color: #f2f1f4;
+  margin: 5px;
+  padding:  10px 0px ;
+  border-radius: 50%;
+  background-color: rgb(6, 87, 90);
+}
+
+.fa-minus{
+  display: none;
+}
+.description{
+  border-left: solid 2px rgb(6, 87, 90);
+  margin: 0px 30px;
+  padding: 0px 20px;
+  display: none;
+}
+.active + .description{
+  display: block;
+}
+.active .fa-minus{
+  display: inline;
+}
+.active .fa-plus{
+  display: none;
+}
+.title h3{
+  flex-basis: 90%;
+  text-align: center;
+}
+.description p{
+  line-height: 25px;
+}
+
+@media screen and (max-width: 950px) {
+  .title .icon{
+    padding: 10px 5px;
+  }
 }
