@@ -2,3 +2,36 @@ html {
   background: #f2f1f4;
   color: #19171c;
 }
+
+.description {
+  display: none;
+  padding-left: 10px;
+  width: 30%;
+  padding: 10px;
+  background-color: rgb(242, 124, 142);
+  color: white;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.active + .description {
+  display: block;
+}
+
+.container {
+  width: 50%;
+  height: 75vh;
+  background-color: pink;
+  margin: auto;
+  border: black solid;
+  border-radius: 5%;
+  margin-top: 20%;
+}
