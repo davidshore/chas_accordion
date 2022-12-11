@@ -2,3 +2,30 @@ html {
   background: #f2f1f4;
   color: #19171c;
 }
+
+.active + .description {
+  display: block;
+}
+
+.description {
+  display: none;
+}
+
+#section1,
+#section2,
+#section3 {
+  max-width: 10%;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+
+h1 {
+  margin-left: 1em;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
