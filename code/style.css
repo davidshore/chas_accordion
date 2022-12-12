@@ -2,3 +2,57 @@ html {
   background: #f2f1f4;
   color: #19171c;
 }
+
+.accordion {
+  margin: auto;
+  width: 50%;
+  background-color: #fff;
+  
+}
+
+.title1{
+  margin: auto;
+}
+
+#section1 {
+  max-width: 50%;
+  background-color: #5bb65b;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+#section2 {
+  max-width: 50%;
+  background-color: #5bb65b;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+#section3 {
+  max-width: 50%;
+  background-color: #5bb65b;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+
+.description {
+  display: none;
+  
+}
+
+.active + .description {
+  display: block;
+  
+}
+
+h1 {
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  
+}
+
+
