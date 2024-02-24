@@ -2,10 +2,26 @@ html {
   background: #f2f1f4;
   color: #19171c;
 }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title {
+  font-size: x-large;
+  margin: 1rem;
+}
 .description {
   display: none;
 }
 
 .active + .description {
   display: block;
+  text-align: center;
+  color: cadetblue;
 }
